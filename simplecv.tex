@@ -1,0 +1,252 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{hyperref}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Kushal Subedi} \\ \vspace{1pt}
+    Pokhara,Gandaki Nepal \\ \vspace{1pt}
+     \faEnvelope\hspace{0.2cm} kushalsubedi20@gmail.com \hspace{0.3cm} \faPhone\hspace{0.2cm} (+977) 9865212350 \hspace{0.2cm}
+    \faLinkedin\hspace{0.2cm} \href{https://www.linkedin.com/in/kushal-subedi-3a4a96223/}{Kushal Subedi} \hspace{0.2cm}\faGithub\hspace{0.2cm}\href{https://github.com/kushalsubedi}{kushalsubedi}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Soch college Of IT (Tribhuvan University)}{2019 -- Running}
+      {Bachelor of Science in Computer Science and Information Technology (Bsc.CSIT)}{Pokhara, Gandaki}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Compiler Design
+                \item Algorithms Analysis
+                \item Database Management
+                \item Artificial Intelligence
+                \item Computer Network
+                \item Web Technology
+                \item Computer Architecture
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Websoft Nepal}{Nov 2022 -- Dec 2022}
+      {Python Mentor}{Pokhara, Gandaki}
+      \resumeItemListStart
+        \resumeItem{Successfully mentored students over a 1-Month period, enabling them to progress in their programming careers.}
+        \resumeItem{Provided expert guidance and support, helping students to grasp Python programming concepts and develop practical skills.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Diamond Model School}{Feb 2021 --  Nov2021}
+      {Comuter Teacher}{Pokhara, Gandaki}
+      \resumeItemListStart
+        \resumeItem{Honed ability to explain technical concepts in a clear and concise manner, and improved communication with students, parents, and colleagues.}
+        \resumeItem{Gained extensive knowledge in various programming languages and teaching methodologies}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Triveny Public School}{Nov 2019 --  Jan2021}
+      {Primary Maths Teacher}{Pokhara, Gandaki}
+    \resumeItemListStart
+    \resumeItem{Developed problem solving and team working skills.}
+        \resumeItem{Developed the skill to engage with students in a friendly and approachable manner, fostering a positive and comfortable learning environment.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{E-commerce web application} $|$ \emph{Python, Django, Bootstrap, Html, CSS,JS}}{Aug 2023}
+          \resumeItemListStart
+          \resumeItem{Created E-commerce site with     Authorization, Authentication, Dynamic carts and online payment method.}
+            \resumeItem{Acquired comprehensive knowledge of backend development.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Blog Application} $|$ \emph{Django, Html,Bootstrap}}{Nov 2022}
+          \resumeItemListStart
+            \resumeItem{Created an Blog application with CRUD database functionalities.}
+            \resumeItem{Gained knowledge about Django and Django admin panel}
+            \resumeItem{Gainde knowledge about REST Api design pattern.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Library Management System}$|$ \emph{C programming}}{March 2020}
+          \resumeItemListStart
+            \resumeItem{Developed multi user based library management system in C
+during my 1st sem.
+}
+\resumeItem{Gained knowledge about C and File handeling.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++ C, HTML/CSS, JavaScript, SQL} \\
+     \textbf{Developer Tools}{: VS Code, git , Nvim , Linux, Bash} \\
+     \textbf{Technologies/Frameworks}{: Django , Docker , github , Express JS} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{CSITAN-Pokhara}{2020 - 2022}{Executive Team}{}
+            \resumeItemListStart
+                \resumeItem{ As an executive member, I led and mentored events, fueling my personal growth. I developed crucial leadership, decision-making, and problem-solving skills while empowering others.}
+                \resumeItem{As an executive member, I got chance to mentor 3 days long web development session.}
+            
+            \resumeItemListEnd
+        \resumeSubheading{WRC}{2022}{}{}
+            \resumeItemListStart
+                \resumeItem{ Lead and mentor 1 week long Python workshop.}
+                
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
